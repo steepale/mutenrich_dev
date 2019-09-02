@@ -104,26 +104,7 @@ roi_script = file(params.roi_script)
  * STEP 1.a. Prep input files
  * STEP 1.a.1. Create Region Of Interest (ROI) file
  */
-process roi {
-    container "${container__roi}"
-    label 'roi'
-    publishDir "${params.workdir}/data", mode: 'copy'
 
-    input:
-    file r_roi from roi_script
-    file ann from ann_file
-    
-    output:
-    file 'roi.txt' into roi_file
-
-    script:
-    """
-    Rscript ${r_roi} \
-    --ann ${ann} \
-    --output roi.txt \
-    --roi exon
-    """
-}
 
 // Create a 'sample_pairs' channel to emit tuples with 3 elements:
 // the sample ID, the normal bam file, and the tumor bam file
