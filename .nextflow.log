@@ -1,0 +1,35 @@
+Aug-28 15:10:02.457 [main] DEBUG nextflow.cli.Launcher - $> nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf -resume
+Aug-28 15:10:02.735 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.07.0
+Aug-28 15:10:02.756 [main] INFO  nextflow.cli.CmdRun - Launching `dev.nf` [tender_fermi] - revision: bdd6d59337
+Aug-28 15:10:02.936 [main] DEBUG nextflow.Session - Session uuid: 43e5df85-10ca-456d-8f01-068a8c7cf0d7
+Aug-28 15:10:02.937 [main] DEBUG nextflow.Session - Run name: tender_fermi
+Aug-28 15:10:02.941 [main] DEBUG nextflow.Session - Executor pool size: 4
+Aug-28 15:10:02.988 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.07.0 build 5106
+  Created: 27-07-2019 13:22 UTC (09:22 EDT)
+  System: Mac OS X 10.14
+  Runtime: Groovy 2.5.6 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_131-b11
+  Encoding: UTF-8 (UTF-8)
+  Process: 24320@Alexanders-MacBook-Pro-4.local [192.168.0.14]
+  CPUs: 4 - Mem: 16 GB (1.9 GB) - Swap: 11 GB (1.2 GB)
+Aug-28 15:10:03.033 [main] DEBUG nextflow.Session - Work-dir: /Users/Alec/Documents/Bioinformatics/MDV_Project/mutenrich_dev/work [Mac OS X]
+Aug-28 15:10:03.033 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/Alec/Documents/Bioinformatics/MDV_Project/mutenrich_dev/bin
+Aug-28 15:10:03.281 [main] DEBUG nextflow.Session - Session start invoked
+Aug-28 15:10:04.307 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-28 15:10:04.322 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+Aug-28 15:10:04.701 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Aug-28 15:10:04.701 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-28 15:10:04.710 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-28 15:10:04.716 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=16 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Aug-28 15:10:04.828 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > roi -- maxForks: 4
+Aug-28 15:10:04.907 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Aug-28 15:10:04.907 [main] DEBUG nextflow.Session - Session await
+Aug-28 15:10:05.115 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-28 15:10:05.124 [Task submitter] INFO  nextflow.Session - [3b/f1fd72] Submitted process > roi
+Aug-28 15:11:05.060 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: roi; status: COMPLETED; exit: 0; error: -; workDir: /Users/Alec/Documents/Bioinformatics/MDV_Project/mutenrich_dev/work/3b/f1fd729a5b0ed6b1338e02c93c00e4]
+Aug-28 15:11:05.103 [Task monitor] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=12; maxQueueSize=36; keepAlive=1m
+Aug-28 15:11:05.118 [main] DEBUG nextflow.Session - Session await > all process finished
+Aug-28 15:11:05.125 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-28 15:11:05.172 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=1; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=59.9s; failedDuration=0ms; cachedDuration=0ms]
+Aug-28 15:11:05.336 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Aug-28 15:11:05.358 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,26 @@
+2019-08-28 13:03:35	2.1s	berserk_hugle	ERR	67463a893da33ad1a6f1734444ed4867	1f911610-b3e4-4881-aa01-b2374cf25552	nextflow dev.nf
+2019-08-28 13:06:14	2s	festering_lamarr	ERR	ffe846d7b653ef73ac02d18cc846fd84	b49145c4-067d-4655-b8e5-49b870fad3c4	nextflow dev.nf
+2019-08-28 13:12:31	2s	silly_edison	ERR	60f74751c8ed5ce8104c6d0c24ea538d	3a5d726a-6630-4469-8b83-243a45b436c7	nextflow dev.nf
+2019-08-28 13:13:21	2.5s	evil_torvalds	ERR	b8eacdd465909a2737c37135969858ba	006e700b-a6ea-42e8-9893-a38dd6d37345	nextflow dev.nf
+2019-08-28 13:15:03	-	festering_wilson	-	67bde84871a848098c94928e5a3ff9d6	06d95b2c-6389-4d72-8cc0-51293226d406	nextflow dev.nf
+2019-08-28 13:15:42	-	amazing_avogadro	-	30c94a924769e18d33664fa50df75fbf	f811bbcf-2380-44b0-874c-0c538df5c301	nextflow dev.nf
+2019-08-28 13:16:23	-	shrivelled_solvay	-	21bcff2c185e1242f3e109c84aa20c70	d224b496-fd43-4112-ba37-6223fa118ced	nextflow dev.nf
+2019-08-28 13:17:39	-	spontaneous_lavoisier	-	890d545cc89b07957fb5787454621b4c	1a43e2c5-8c28-4fe7-b09f-ca65db0e00cb	nextflow dev.nf
+2019-08-28 13:18:22	50.3s	voluminous_avogadro	ERR	11ce958b377c5f0cfe54f2a4525b6162	86aa01d8-9b54-4540-9327-7989bbc80b71	nextflow dev.nf
+2019-08-28 13:19:43	55.9s	sad_kilby	ERR	687ddcf919a87e0314359e9b96b63075	06d26d47-1a84-4f24-9132-77e80a7624ee	nextflow dev.nf
+2019-08-28 13:21:57	1m 15s	sleepy_golick	OK	6a5e5842355178bf4add1e89f463538d	00f4640e-7097-480c-903e-6a27b9c2520c	nextflow dev.nf
+2019-08-28 13:25:55	1m 2s	intergalactic_becquerel	OK	392ec533cda7d3eb8d88517b8ee9637b	12d6c944-6ae9-4c1b-a6b5-71bd23291649	nextflow dev.nf
+2019-08-28 13:32:50	-	crazy_albattani	-	597150068a2a51b0641544c17acef1a8	45e1e067-9ad4-4e8c-af5d-5eb7d083ad67	nextflow dev.nf
+2019-08-28 13:33:51	-	agitated_shannon	-	597150068a2a51b0641544c17acef1a8	34d907ab-fa38-4335-a84c-78c3299bb999	nextflow dev.nf --help
+2019-08-28 13:38:14	-	condescending_hodgkin	-	27ca24575e1f194b57d85174cd99806d	751b9e63-ddba-4777-84b9-88f03e28ac8d	nextflow dev.nf --help
+2019-08-28 13:41:47	1m 4s	curious_lamarck	OK	3e8c974a6a8f4fd5e33d1d3aa8b275cf	c4b04a8d-ee6e-4b33-85cc-1ed7646e61ad	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf --outidr = . --roi_script ./scripts/roi.R
+2019-08-28 13:44:17	58.6s	modest_ardinghelli	OK	3e8c974a6a8f4fd5e33d1d3aa8b275cf	a7bc6a7b-68c5-49c3-856a-f7f0a177d5d8	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf --outdir = . --roi_script ./scripts/roi.R
+2019-08-28 13:48:16	58.5s	fabulous_joliot	OK	cdddcbdd9fa3e4f81bfe3d83c3c8ed2d	f5efee14-d555-4b5e-8f78-831229b80745	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf --outdir = . --roi_script ./scripts/roi.R
+2019-08-28 14:06:09	-	agitated_leavitt	-	6e09e46dcbd727cf35074fb65b43ef54	879413a4-47e4-4608-b339-46f5197246ee	nextflow dev.nf --help
+2019-08-28 15:04:39	1m 6s	fabulous_lamport	OK	593f37933c40c52268684147192b9430	a92501e5-1b66-47d8-97bd-6ae16564b3fc	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf --outdir = . --roi_script ./scripts/roi.R
+2019-08-28 15:06:38	-	astonishing_heyrovsky	-	593f37933c40c52268684147192b9430	a92501e5-1b66-47d8-97bd-6ae16564b3fc	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf -resume
+2019-08-28 15:07:45	-	confident_pauling	-	593f37933c40c52268684147192b9430	a92501e5-1b66-47d8-97bd-6ae16564b3fc	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf -resume
+2019-08-28 15:08:38	-	hungry_euler	-	593f37933c40c52268684147192b9430	8c565e2f-99ad-49a5-8ef0-46978d0ce6d9	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf
+2019-08-28 15:09:28	-	confident_hodgkin	-	593f37933c40c52268684147192b9430	a5fe663d-64a6-4f47-9b2d-4c8a361bab3c	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf
+2019-08-28 15:09:45	11.7s	stoic_pesquet	ERR	bdd6d5933798e96ca6b9d3aaefeee741	43e5df85-10ca-456d-8f01-068a8c7cf0d7	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf
+2019-08-28 15:10:03	1m 2s	tender_fermi	OK	bdd6d5933798e96ca6b9d3aaefeee741	43e5df85-10ca-456d-8f01-068a8c7cf0d7	nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf -resume

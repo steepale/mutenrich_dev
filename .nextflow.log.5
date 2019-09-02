@@ -1,0 +1,47 @@
+Aug-28 15:06:38.083 [main] DEBUG nextflow.cli.Launcher - $> nextflow run dev.nf --ann ./data/Gallus_gallus.Gallus_gallus-5.0.87.gtf -resume
+Aug-28 15:06:38.321 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.07.0
+Aug-28 15:06:38.349 [main] INFO  nextflow.cli.CmdRun - Launching `dev.nf` [astonishing_heyrovsky] - revision: 593f37933c
+Aug-28 15:06:38.517 [main] DEBUG nextflow.Session - Session uuid: a92501e5-1b66-47d8-97bd-6ae16564b3fc
+Aug-28 15:06:38.517 [main] DEBUG nextflow.Session - Run name: astonishing_heyrovsky
+Aug-28 15:06:38.520 [main] DEBUG nextflow.Session - Executor pool size: 4
+Aug-28 15:06:38.564 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.07.0 build 5106
+  Created: 27-07-2019 13:22 UTC (09:22 EDT)
+  System: Mac OS X 10.14
+  Runtime: Groovy 2.5.6 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_131-b11
+  Encoding: UTF-8 (UTF-8)
+  Process: 24137@Alexanders-MacBook-Pro-4.local [192.168.0.14]
+  CPUs: 4 - Mem: 16 GB (2.4 GB) - Swap: 11 GB (1001 MB)
+Aug-28 15:06:38.606 [main] DEBUG nextflow.Session - Work-dir: /Users/Alec/Documents/Bioinformatics/MDV_Project/mutenrich_dev/work [Mac OS X]
+Aug-28 15:06:38.606 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/Alec/Documents/Bioinformatics/MDV_Project/mutenrich_dev/bin
+Aug-28 15:06:38.864 [main] DEBUG nextflow.Session - Session start invoked
+Aug-28 15:06:39.780 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-28 15:06:39.795 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+Aug-28 15:06:39.803 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `roi_script` -- Initialise it to a default value eg. `params.roi_script = some_value`
+Aug-28 15:06:39.837 [main] DEBUG nextflow.Session - Session aborted -- Cause: Argument of `file` function cannot be null
+Aug-28 15:06:40.179 [main] ERROR nextflow.cli.Launcher - Argument of `file` function cannot be null
+java.lang.IllegalArgumentException: Argument of `file` function cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at nextflow.Nextflow.file(Nextflow.groovy:143)
+	at nextflow.Nextflow.file(Nextflow.groovy)
+	at nextflow.Nextflow$file.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:196)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:208)
+	at Script_2a45af58.runScript(Script_2a45af58:96)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:151)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:189)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:287)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:132)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:246)
+	at nextflow.cli.Launcher.run(Launcher.groovy:451)
+	at nextflow.cli.Launcher.main(Launcher.groovy:633)
